@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+}
+
+#first-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9381ff;
+    padding:30px 20px;
+    
+}
+
+#title{
+    color: white;
+}
+
+#convert-button{
+    background: white;
+    padding:5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+#unit-converter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #007ea7;
+    padding: 20px 20px;
+    width: 450px;
+    
+    
+    
+}
+
+#chosen-unit{
+    text-align: center;
+    width: 27px;
+    height:40px;
+    color:white;
+    font-size: 25px;
+    margin:10px 20px;
+    padding:5px 20px;
+    background: none;
+    border:white solid 2px;
+}
+#chosen-unit::placeholder{
+    color:white;
+}
+
+#chosen-unit:focus{
+    outline:none;
+    background:none;
+}
+
+
+
+.digits{
+    background: white;
+    width: 200px;
+    padding: 10px 10px;
+   margin:10px;
+   
+    
+}
